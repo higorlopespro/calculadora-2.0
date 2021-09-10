@@ -46,6 +46,11 @@ header{
     
     .conteiner{
         max-width: 300px;
+        padding: 10px 0px 10px 0px;
+    }
+    
+    .conteiner > div{
+        margin: 5px;
     }
     
     .conteiner > div > input{
