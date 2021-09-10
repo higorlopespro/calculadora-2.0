@@ -23,7 +23,6 @@ header{
     padding: 20px;
     margin: auto;
     max-width: 500px;
-    min-width: 100px;
 
 }
 
@@ -44,6 +43,11 @@ header{
 }
 
 @media screen and (max-width: 750px){
+    
+    .conteiner{
+        max-width: 300px;
+    }
+    
     .conteiner > div > input{
         max-width: 50px;
     }
