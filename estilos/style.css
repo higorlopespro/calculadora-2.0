@@ -49,6 +49,11 @@ header{
     .conteiner{
         width: 400px;
     }
+    
+    #resultado{
+        max-width: 150px;
+    }
+    
 }
 
 
