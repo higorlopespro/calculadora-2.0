@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Montserrat & display = swap "rel =" stylesheet ">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <title>Calculadora JS</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div class="conteiner">
+            <div>
+                <input type="number" id="somarn1" min="0"> +
+                <input type="number" id="somarn2" min="0">
+                <button onclick="somar()">Calcular</button>
+            </div>
+            <div>
+                <input type="number" id="subn1" min="0"> -
+                <input type="number" id="subn2" min="0">
+                <button onclick="sub()">Calcular</button>
+            </div>
+            <div>
+                <input type="number" id="xn1" min="0"> ×
+                <input type="number" id="xn2" min="0">
+                <button onclick="x()">Calcular</button>
+            </div>
+            <div>
+                <input type="number" id="divn1" min="0"> ÷
+                <input type="number" id="divn2" min="0">
+                <button onclick="div()">Calcular</button>
+            </div>
+            <div id="resultado">
+                O resultado foi: <strong>---</strong>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copyHigorlopes</p>
+    </footer>
+    <script src="JS/inde.js"></script>
+</body>
+</html>
